@@ -1,7 +1,7 @@
 # Real_time_stock_prediction
 A stock prediction server-side model which predicts the prices in real time. 
 
-##References
+## References
 1. Working with Linux shell : https://www.youtube.com/watch?v=qVWEr9pkq6Y&list=PLWkguCWKqN9OrwsklvLC8FB87TbaOQGqY
 2. Setting up Kafka locally : https://www.youtube.com/watch?v=NxWvkytU5J0&list=PLWkguCWKqN9Nd-aLnVWxlMRaKNSa_nIqs 
 3. Fundamentals of Kafka : https://www.youtube.com/watch?v=-DyWhcX3Dpc&list=PLa7VYi0yPIH2PelhRHoFR5iQgflg-y6JA
