@@ -3,28 +3,26 @@
 const config = {
 
 	"kafkaConfig":{
-
 		KafkaHost:'localhost:9092',
 	    KafkaTopic1: 'StockMarketAnalysis',
 	    KafkaTopic2: 'StockMarketPredictions',
 	},
-
-    "dbConfig":{
-    	user: 'Put your user information of the your Mongodb Atlas Account',
-	    password: 'Password for the account',
-	    server: 'clustera1.cvglu.mongodb.net/',
+    
+	//Make sure to create database and collections withe same name as that given over here.
+	"dbConfig":{
+    	user: "Enter-your-Mongodb-Atlas-username",
+	    password: "Enter-your-Mongodb-Atlas-account-password",
+	    server: 'Add-your-server-name',
 	    database: 'StockLogsDB',
 	    collectionStream: 'StockData',
 	    collectionML: 'mlPrediction',
     },
-
     "trainConfig":{
     	trainSize: 85,
     	epoch: 50,
     	batchSize: 32,
         modelDir: 'models',
     },
-
     "type": "Open"
 };
 

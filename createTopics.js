@@ -1,8 +1,8 @@
 
-//npm package for kafka
+//npm package for kafka.
 const kafka = require('kafka-node');
 
-//Calling the config file which is in the repository (Our own package)
+//Calling the config file which is in the repository (Our own package).
 //1.kafkaConfig
 //2.dbConfig
 //3.trainConfig
@@ -26,7 +26,7 @@ const topicToCreate = [{
 }
 ]
 
-//Creates the topics and if any errors returns them as an array
+//Creates the topics and if any errors returns them as an array.
 client.createTopics(topicToCreate, (error, result) => {
 	console.log(result, 'topic created successfully');
 })
